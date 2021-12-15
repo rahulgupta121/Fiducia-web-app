@@ -259,12 +259,13 @@ ul:hover{
     }
     
     .container {
-        
         padding-right: 15px;
         padding-left: 15px;
         margin-right: auto;
         margin-left: auto;
     }
+
+    
   }
 
   @media (max-width: 544px){
@@ -313,7 +314,7 @@ ul:hover{
  }
  .carousel-indicators{
      margin-top: 300px;
-     margin-bottom: -60px;
+     margin-bottom: -76px;
  }
  
  .ownership{
@@ -360,6 +361,8 @@ ul:hover{
 }
 ul {
     list-style-type: none;
+    justify-content: inherit;
+    
 }
 
 a{
@@ -376,4 +379,7 @@ ul.fotter-icon a {
     background: #000;
     border-radius: 50%;
 }
- 
+.useful-link{
+    color: orangered;
+    padding-right: 10px;
+}
