@@ -1,0 +1,379 @@
+/* body, html{
+    background: none;
+} */
+.row{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+#card{
+    flex-wrap: wrap;
+}
+
+#owner-logo-img{
+    height: 100px;
+    width: 100px;
+    padding: 5px;
+    display: flex;
+    margin-left: 60px;
+}
+
+#nav-background{
+    background: url("/logos/background-banner.png");
+    height: 100%;
+    justify-content: center;
+    display: flex;
+    margin-top: 0%;
+}
+
+#scroll-img{
+    display: flex;
+    height: 250px;
+    width: 250px;
+}
+
+@media only screen and (max-height: 520px) {
+    
+}
+#three-button{
+    text-align: center;
+    justify-content: center;
+}
+#button:hover{
+    background-color: rgb(240, 234, 234);
+}
+
+#button{
+    height: 100px;
+    width: 250px;
+    margin: 20px;
+    padding: 20px;
+
+}
+
+#nav-head{
+    font-family:'Oswald', sans-serif;
+}
+
+ul:hover{
+    font-size: medium;
+}
+
+#brand-background{
+    background: url("./logos/Mask\ Group.png");
+    width: 100%;
+} 
+
+/* div #brand-background:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: rgba(0,0,0,0.5);
+    width: 100%;
+    height: 100%;
+} */
+/* #brand-background ::after{
+    background: url("./logos/Mask\ Group.png");
+} */
+/* #brand-background-2 ::before{
+    background: url("./logos/Rectangle\ 113.png");
+} */
+
+.Scrolling-headline{
+    justify-content: center;
+    margin: 0px 50px;
+}
+
+#ownership{
+    background: url("./logos/Rectangle\ 111.png");
+   flex-wrap: wrap;
+}
+
+#building{
+    font-size: 20px;
+    font-weight: bold;
+    background: orangered;
+    border: orangered;
+}
+#links{
+   background-image: url("./logos/Rectangle\ 123.png");
+    display: flex;
+} 
+.gallary{
+    text-align: left; 
+    color: orangered;
+    padding-bottom: -10px;
+}
+#footer{
+    background: url("./logos/Rectangle\ 124.png");
+    width: 100%;
+}
+
+
+#gallary{
+    margin-top: 15px;
+}
+
+.brand-pic{
+    height: 80px;
+    width: 80px;
+}
+#brand-text{
+    font-size: 14px;
+}
+
+/*  logo of icon  */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  .carousel{
+      padding: 5px;
+  }
+  #brand-para{
+      font-weight: 12px;
+  }
+  #background-button{
+      background-image: url("./logos/Rectangle\ 104.png");
+      display: flex;
+      flex-wrap: wrap;
+  }
+  /* @media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  } */
+  .s-img{
+      background: white;
+      left: 111px;
+      width: 200px;
+  }
+  div .s-img img{
+      height: 300px;
+      width: auto !important;
+  }
+  #card-background{
+      background-image: url("./logos/Rectangle\ 107.png");
+      width: cover;
+      
+  }
+  #gallary{
+      text-align: center;
+  }
+
+  #arrow-logo{
+      text-align: center;
+      justify-content: center;
+      height: 52px;
+      margin-top: 160px;
+  }
+
+  /* #arrow-logo-next{
+    height: 52px;
+    justify-content: center;
+    text-align: center;
+    padding-left: 0px;
+  } */
+
+  @media (max-width: 520px) {
+    #arrow-logo {
+      margin-top: none;
+    }
+    li {
+        margin: 2px;
+        padding: 5px 0;
+    }
+    #building{
+        font-size: 15px;
+
+    }
+    #arrow-logo-next{
+        margin-top: -130px;
+        justify-content: center;
+    }
+    #card{
+        margin-top: -160px;
+    }
+    #fidicia-list h1{
+        font-size: 20px;
+    }
+    .carousel-indicators li{
+        height: 8px;
+        width: 8px;
+        border-radius: 4px;
+        padding: 2px;
+        text-align: center;
+    }
+     .carousel-indicators .active{
+        background-color: rgb(189, 121, 121);
+        height: 15px;
+        width: 5px;
+        border-radius: 4px;
+     }
+     #nav-background{
+        background: url("/logos/background-banner.png");
+        height: 150%;
+        justify-content: center;
+        display: flex;
+    }
+
+    .other-link {
+        padding: 12px;
+    }
+    .s-img{
+        background: white;
+        left: 15px;
+        width: 305px;
+        margin-top: 5px;
+    }
+    
+    .container {
+        
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+  }
+
+  @media (max-width: 544px){
+    #arrow-logo-next{
+        margin-top: -150px;
+        justify-content: center;
+        
+    }
+  }
+  .para-fiducia{
+      
+      font-weight: 2px;
+  }
+  .heading-fiducia {
+      text-align: center;
+  }
+  div .view-more{
+      text-align: center;
+      padding-bottom: 20px;
+  }
+ .fotter-icon{
+     width: 55px;
+     display: flex;
+     padding: 20px;
+ }
+
+ #img{
+     height: 200px;
+     width: 200px;
+     margin-left: 15%;
+ }
+
+ .carousel-indicators li{
+     height: 18px;
+     width: 18px;
+     border-radius: 8px;
+     padding: 2px;
+     text-align: center;
+ }
+
+ .carousel-indicators .active{
+    background-color: #ffff;
+    height: 25px;
+    width: 55px;
+    border-radius: 14px;
+ }
+ .carousel-indicators{
+     margin-top: 300px;
+     margin-bottom: -60px;
+ }
+ 
+ .ownership{
+     padding: 30px 0;
+ }
+ .background-button{
+     padding: 20px 0;
+     justify-content: center;
+ }
+ .card-background{
+     padding: 25px 0;
+ }
+.card{
+    border-radius: 12px;
+}
+    #gallary-input{
+     height: 50px;
+     width: 380px;
+     background: rgb(35, 36, 35);
+     border-radius: 50px;
+     text-align: left;
+     padding-left: 16px;
+     text-align: center;
+     display: flex;
+ }
+ .gallary-input{
+     justify-content: center;
+
+ }
+ #message-logo{
+    padding-top: 15px;
+    text-align: left;
+}
+
+#ellipse-logo{
+   text-align: right;
+}
+
+.fa:first-child{
+    font-size: 25px;
+    justify-content: left;
+    margin: 0px;
+    padding: 20px;
+}
+ul {
+    list-style-type: none;
+}
+
+a{
+    font: 13px;
+    color: white;
+}
+#fidicia-list{
+    margin-left: -50px;
+}
+
+ul.fotter-icon a {
+    height: 50px;
+    display: inline-block;
+    background: #000;
+    border-radius: 50%;
+}
+ 
