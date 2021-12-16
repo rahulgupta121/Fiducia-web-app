@@ -243,7 +243,7 @@ ul:hover{
      }
      #nav-background{
         background: url("/logos/background-banner.png");
-        height: 150%;
+        height: 100%;
         justify-content: center;
         display: flex;
     }
@@ -329,6 +329,7 @@ ul:hover{
  }
 .card{
     border-radius: 12px;
+    height: 390px;
 }
     #gallary-input{
      height: 50px;
@@ -382,4 +383,28 @@ ul.fotter-icon a {
 .useful-link{
     color: orangered;
     padding-right: 10px;
+}
+.owner-logo-img-2{
+    height: 80px;
+    width: 80px;
+}
+
+.quick-shop{
+    height: 35px;
+    width: 100%;
+    background: rgb(99, 38, 168);
+    text-align: center;
+    padding-top: 3.5px;
+    opacity: 0;
+
+}
+.quick-shop a{
+    text-decoration: none;    
+    color: white;
+    font-weight: 500;
+
+}
+
+.quick-shop:hover{
+    opacity: 1;
 }
